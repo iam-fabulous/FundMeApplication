@@ -1,0 +1,113 @@
+.hero_section{
+    /* display: flex;
+    align-items: center; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    max-width: 1250px;
+    height: 648px;
+    padding-left: 32px;
+    padding-right: 32px;
+     */
+     padding-top: 20px;
+     padding-left: 32px;
+     padding-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.heroImage{
+    width: 804px;
+    aspect-ratio: auto 804 / 643;
+    height: 643px;
+}
+
+.hero_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width:410px;
+    position: relative;
+    left: 110px;
+}
+
+.hero_button_one{
+    display: flex;
+    padding: 6px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 22px;
+    background: #e7ebfa;
+    color: #122fb7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    width:184px;
+}
+
+.hero_text h1{
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    width: 410px;
+}
+
+.hero_text h2{
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    color: #667085;
+}
+
+.check{
+    padding-top: 32px;
+    width:323px;
+}
+
+.check_button{
+    width: 300px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    color: #fff;
+    border-width: 1px;
+    border-radius: 100px;
+    border-color: #1434cb;
+    background-color: #1434cb;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Poppins;
+    src: url(../../../public/Poppins/Poppins-Regular.ttf);
+}

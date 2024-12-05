@@ -1,0 +1,176 @@
+/* .input{
+    width: 200px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+} */
+
+.main_wrapper{
+    
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    /* z-index: 10px;
+    position: fixed;
+    margin-top: 10px; */
+}
+
+.wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  }
+  .wrapper h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+  }
+  .wrapper h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #4070f4;
+  }
+  .wrapper form{
+    margin-top: 30px;
+  }
+  .wrapper form .input_box{
+    height: 52px;
+    margin: 18px 0;
+  }
+  form .input_box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  .input_box input:focus,
+  .input_box input:valid{
+    border-color: #4070f4;
+  }
+  form .policy{
+    display: flex;
+    align-items: center;
+  }
+  form h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+  }
+  .input_box.button input{
+    color: #fff;
+    letter-spacing: 1px;
+    border: none;
+    background: #4070f4;
+    cursor: pointer;
+  }
+  .input_box.button input:hover{
+    background: #0e4bf1;
+  }
+  form .text h3{
+   color: #333;
+   width: 100%;
+   text-align: center;
+  }
+  form .text h3 a{
+    color: #4070f4;
+    text-decoration: none;
+  }
+  form .text h3 a:hover{
+    text-decoration: underline;
+  }
+
+  /* .input_box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  } */
+
+  /* Style the select tag */
+  .input_box select {
+    appearance: none; /* Removes default styling for cross-browser consistency */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    /* background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    width: 100%;
+    transition: border-color 0.3s ease; */
+
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Add focus effect */
+  .input_box select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Style the dropdown arrow */
+  .input_box select::-ms-expand {
+    display: none; /* Hides the default dropdown arrow in IE */
+  }
+  
+  /* Optional: Add custom arrow with pseudo-elements */
+  .input_box select {
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="%23333" viewBox="0 0 16 16"><path d="M1.5 5l6 6 6-6h-12z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 12px;
+  }
+  
+  /* Add hover effect */
+  .input_box select:hover {
+    border-color: #0056b3;
+  }
+  
+  /* Add disabled styling */
+  .input_box select:disabled {
+    background-color: #e9ecef;
+    color: #6c757d;
+    cursor: not-allowed;
+  }
+  

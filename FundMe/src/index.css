@@ -1,0 +1,12 @@
+body{
+  background-color: white;
+  
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  /* width: 100vw; */
+  max-width: 2000px;
+  /* margin:auto */
+}
